@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Cobrinha</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 35px;
+        }
+        body{
+            background-color: rgb(107, 184, 107);
+        }
+        h1#pp{
+            margin-top: -580px;
+            margin-left: 20px;
+        }
+        h2#ponts,#score{
+            margin-left: 70px;
+        }
+        canvas{
+            margin-left: 300px;
+            border: 5px solid white;
+            border-top: none;
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="stage" width="600" height="600"></canvas>
+
+    <h1 id="pp">PONTOS:</h1>
+    <h2 id="ponts">0</h2>
+    <h1 style="font-size: 32px">MELHOR RECORD:</h1>
+    <h2 id="score">0</h2>
+
+    <script src="jogo.js"></script>
+</body>
+</html>
